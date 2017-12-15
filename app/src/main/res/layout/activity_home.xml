@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="adrianbeukes.opsc7312_ass1.Home">
+
+    <TextView
+        android:text="Assignment 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/txtHeading"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold|italic"
+        android:textAllCaps="true"
+        android:fontFamily="monospace" />
+
+    <Button
+        android:text="Question 1.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHeading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:id="@+id/btnQ1.1"
+        android:onClick="Question1A" />
+
+    <Button
+        android:text="Question 1.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:id="@+id/btnQ1.2"
+        android:layout_below="@+id/btnQ1.1"
+        android:layout_alignStart="@+id/btnQ1.1"
+        android:onClick="Question1B" />
+
+    <Button
+        android:text="Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnHelp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/txtHeading"
+        android:layout_marginBottom="25dp"
+        android:onClick="clickHelp" />
+
+    <Button
+        android:text="Question 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnQ2"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/btnQ1.2"
+        android:layout_toStartOf="@+id/btnHelp"
+        android:onClick="Question2"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

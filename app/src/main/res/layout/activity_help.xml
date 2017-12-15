@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="adrianbeukes.opsc7312_ass1.Help">
+
+    <TextView
+        android:text="Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHeading"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="OPSC Assignment1                       15002426                                                           version 0.6                                                                                                                                  Thank you for using our application"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfo5"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:textColor="#fff"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Question 2 also have a messaging featurein which you can contact the shop directly and ask them any questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfo4"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/txtInfo3"
+        android:layout_alignParentStart="true"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="Question 2 is a shop called surf's up, the application, shows the shops location on google aps, and you can then recieve information about the shop from marker, and get directions to the shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/txtInfo3"
+        android:textSize="16sp"
+        android:layout_below="@+id/txtInfo2"
+        android:textColor="#fff"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Question 1.2 display the users current location on a google map, from which he can scroll and return on current location again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/txtInfo2"
+        android:textSize="16sp"
+        android:layout_below="@+id/txtInfo1"
+        android:textColor="#fff"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Question 1.1 is a simple get location information, and display the current address information to the user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfo1"
+        android:textSize="16sp"
+        android:layout_below="@+id/txtHeading"
+        android:layout_alignParentStart="true"
+        android:textColor="#fff"
+        android:layout_marginTop="13dp" />
+</RelativeLayout>
